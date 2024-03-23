@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример 26</title>
+</head>
+<body>
+    <script>
+        let n=prompt('Введите число n:');
+        let z=1 ; //z хранит результат n!
+        if(n>1)
+        {
+            let i=2;
+            do {
+                z=z*i;
+                i++;
+            }
+            while (i<=+n);
+        }
+        alert ('Факториал числа' +n+'равен '+z);
+    </script>
+</body>
+</html>
